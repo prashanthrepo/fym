@@ -1,0 +1,102 @@
+@media (max-width: 1440px) {
+  .nav__btn-holder.nav--align-right {
+    width: inherit;
+    margin: inherit;
+    margin-top: inherit;
+  }
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 991px) {
+  .nav__header {
+    width: 100%;
+  }
+  .hero {
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+  .logo {
+    width: 30%;
+  }
+  .nav__holder {
+    background-color: #000;
+  }
+  .nav__wrap {
+    position: absolute;
+    width: 89%;
+    background: #000;
+    padding: 20px;
+  }
+  .nav__btn-holder {
+    width: 200px !important;
+    margin: auto !important;
+    margin-top: 20px !important;
+  }
+  #leadtoprofit {
+    text-align: center;
+  }
+  #leadtoprofit img {
+    width: 50%;
+  }
+  .sectionservices .feature img {
+    width: 35%;
+    margin-bottom: 15px;
+  }
+  .feature img {
+    width: 50%;
+  }
+  .feature {
+    padding-bottom: 50px;
+  }
+  .nav__icon-toggle-bar {
+    background-color: #fff;
+    width: 25px;
+    height: 4px;
+  }
+  .nav__menu li a {
+    height: auto;
+    color: #fff;
+    font-weight: 600;
+  }
+  .nav__dropdown-menu {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 480px) {
+  .logo {
+    width: 40%;
+  }
+  .nav__header {
+    height: 50px;
+  }
+  .nav {
+    min-height: 50px;
+  }
+  .nav__icon-toggle-bar {
+    background-color: #fff;
+    width: 20px;
+    height: 3px;
+  }
+  .sectionservices .feature img {
+    width: 55%;
+  }
+  .section-wrap {
+    padding: 20px 0;
+  }
+  .feature img {
+    width: 80%;
+  }
+  .widget.widget-about-us {
+    text-align: center;
+  }
+  .footer__widgets .row > div:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .widget-title {
+    margin-bottom: 5px;
+  }
+}
