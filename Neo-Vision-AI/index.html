@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/font-icons.css" />
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
 
     <!-- Favicons -->
     <link rel="shortcut icon" href="../img/favicon.ico" />
@@ -29,14 +30,23 @@
       }
       .sectionbg {
         background: url(img/mainbg.jpg);
+        background-size: contain;
       }
       .sectionbg img.bg1 {
         box-shadow: none;
+        width: 70%;
       }
       .sectionbg .hero__title,
       .sectionbg h3,
       .sectionbg p {
         color: #fff;
+      }
+      #neovisionaiheader {
+        background: url(img/bg.png);
+        background-size: contain;
+        background-color: #000;
+        background-repeat: no-repeat;
+        background-position: center;
       }
     </style>
   </head>
@@ -49,8 +59,8 @@
 
     <main class="main-wrapper">
       <header class="nav"></header>
-      <div class="content-wrapper oh">
-        <section id="neovisionaiheader" class="page-title text-center" style="background: url(img/bg.png); background-size: cover; background-color: #000">
+      <div class="content-wrapper oh sectionbg">
+        <section id="neovisionaiheader" class="page-title text-center">
           <div class="container">
             <div class="page-title__holder">
               <h1 class="page-title__title">The Most Powerful and Precise HR Analytics and Recruiting Technology In The World.</h1>
@@ -62,11 +72,11 @@
           </div>
         </section>
 
-        <section class="sectionbg">
+        <section class="listcontainer">
           <div class="container">
             <div class="row justify-content-center py-5">
               <div class="col-lg-12 text-center">
-                <img style="width: 30%" src="../img/neovisionai.png" alt="" />
+                <img class="neovisionsingle" src="../img/neovisionai.png" alt="" />
 
                 <h3 class="hero__title pt-2 mb-0" style="font-weight: 600">Neo Vision - The first Artificial Intelligence based recruiter.</h3>
                 <p class="black-text">
@@ -101,7 +111,7 @@
                   specific role. Neo Vision puts the contact information, personality insights, and skill alignment for passive candidates in front of you instantly. Neo Vision has lead to a 90% reduction in talent management cost.
                 </p>
               </div>
-              <div class="col-lg-4 text-left">
+              <div class="col-lg-4 text-right order-first">
                 <img class="bg1" src="https://hiring.neovisionai.tech/img/2.png" alt="" />
               </div>
             </div>
@@ -126,7 +136,7 @@
                 <h3 class=""><span class="customnumber">4.</span> The Hiring and HR Solution that Drives Data-Driven Decision Making.</h3>
                 <p class="">With Neo Vision, you can add a job description and the skills you’re looking for and within minutes Neo Vision will find relevant candidates providing an instantly AI generated resume, quick insight report and detailed report with scoring for each.</p>
               </div>
-              <div class="col-lg-4 text-left">
+              <div class="col-lg-4 text-right order-first">
                 <img class="bg1" src="https://hiring.neovisionai.tech/img/4.png" alt="" />
               </div>
             </div>

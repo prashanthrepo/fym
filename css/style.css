@@ -72,7 +72,10 @@ img.bg1 {
   color: #fff;
   background-color: #000;
 }
-
+.neovisionsingle {
+  width: 40%;
+  padding-bottom: 20px;
+}
 :focus {
   outline: none;
 }
