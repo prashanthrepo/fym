@@ -10,6 +10,27 @@
 @media (max-width: 1024px) {
 }
 @media (max-width: 991px) {
+#morpheussocialcontent img.bg1 {
+    box-shadow: none;
+    width: 50%;
+}
+#morpheussocialcontent ,#morpheussocialcontent .text-right {
+    text-align: center !important;
+}
+#sectionsociallogo {
+  text-align: center !important;
+}
+#sectionsociallogo img {
+  width: 50%;
+}
+#orderfirstsocial {
+  order: 1;
+}
+  
+#ordersecondsocial {
+  order: 2;
+}
+  
   .nav__header {
     width: 100%;
   }
@@ -84,8 +105,43 @@
   }
 }
 @media (max-width: 768px) {
+#sectionsociallogo .py-5 {
+    padding-top: 30px !important;
+}
+#morpheussocialcontent h2 {
+font-size: 32px;
+    line-height: 28px;
+}
+#socialsuite .servicesimg {
+  width: 60% !important;;
+}
+
+
 }
 @media (max-width: 480px) {
+    #morphheussocialheader {
+    padding-top: 40px;
+}
+#sectionsociallogo img {
+    width: 80%;
+}
+#sectionsociallogo .py-5 {
+    padding-top: 10px !important;
+}
+#morpheussocialcontent h2 {
+font-size: 24px;
+    line-height: 28px;
+}
+#socialsuite .servicesimg {
+  width: 80% !important;;
+}
+#morphheussocialheader h1{
+    font-size: 22px;
+}
+#morphheussocialheader .page-title__subtitle {
+    font-size: 16px;
+    line-height: 1.4;
+}
   .logo {
     width: 40%;
   }
