@@ -36,6 +36,20 @@ img.bg1 {
   box-shadow: none;
   width: 90%;
 }
+#constructcontent img.bg1 {
+  box-shadow: none;
+}
+#constructcontent h2 {
+  font-size: 44px;
+  line-height: 45px;
+}
+#constructcontent p {
+  font-size: 16px;
+}
+#constructcontent img.bg1 {
+  box-shadow: none;
+  width:100%;
+}
 #marketercontent img.bg1 {
   box-shadow: none;
   width: 70%;
@@ -72,7 +86,7 @@ img.bg1 {
   color: #fff;
   background-color: #000;
 }
-.neovisionsingle {
+.logosingle {
   width: 40%;
   padding-bottom: 20px;
 }
@@ -181,7 +195,7 @@ p {
   margin-bottom: 5px;
 }
 #constructheader {
-  background: url(../img/construct/bg.jpg);
+  background: url(../The-Construct/img/bg2.jpg);
   background-size: cover;
 }
 #constructheader {
