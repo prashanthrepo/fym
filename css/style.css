@@ -87,7 +87,7 @@ img.bg1 {
   background-color: #000;
 }
 .logosingle {
-  width: 40%;
+  width: 50%;
   padding-bottom: 20px;
 }
 :focus {
@@ -2355,7 +2355,7 @@ img.mfp-img {
   background-color: #f7f9fa;
 }
 .page-title__holder {
-  max-width: 878px;
+  max-width: 960px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
