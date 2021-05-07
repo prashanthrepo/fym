@@ -183,7 +183,7 @@ p {
   margin-bottom: 5px;
 }
 #marketerheader {
-  background: url(../img/marketer/bg.jpg);
+  background: url(../Morpheusa-Marketer/img/bg.jpg);
   background-size: cover;
 }
 #marketerheader {
@@ -222,7 +222,13 @@ video {
   height: 100%;
   width: 100%;
 }
-
+      #neovisionaiheader {
+        background: url(../Neo-Vision-AI/img/bg.jpg);
+        background-size: contain;
+        background-color: #000;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
 hr {
   margin: 0;
   border-color: #e8eced;
