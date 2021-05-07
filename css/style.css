@@ -206,12 +206,9 @@ p {
   color: #fff;
   margin-bottom: 5px;
 }
+
 #contactheader {
-  background: url(../img/construct/bg.jpg);
-  background-size: cover;
-}
-#contactheader {
-  padding-top: 150px;
+  padding-top: 100px;
 }
 #contactheader h1,
 #contactheader p {
