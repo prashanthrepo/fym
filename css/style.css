@@ -224,10 +224,7 @@ video {
 }
       #neovisionaiheader {
         background: url(../Neo-Vision-AI/img/bg.jpg);
-        background-size: contain;
-        background-color: #000;
-        background-repeat: no-repeat;
-        background-position: center;
+        background-size: cover;
       }
 hr {
   margin: 0;

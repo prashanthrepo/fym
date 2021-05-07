@@ -170,14 +170,20 @@ line-height: 28px;
 
 }
 @media (max-width: 480px) {
+
+  #neovisionaiheader h1 {
+    font-size: 22px;
+}
+
+
   .py-5 {
     padding-bottom: 10px !important;
   }
   #constructheader h1  {
-    font-size: 27px;
+    font-size: 22px;
 }
   #marketerheader h1  {
-    font-size: 27px;
+    font-size: 22px;
 }
   #constructheader {
     padding-top: 30px;
